@@ -1,0 +1,1657 @@
+<div id="template-christmas">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://img.eselt.de/assets/templates/vendor/bootstrap.v3.3.5.min.css');
+        @import url('https://img.eselt.de/fonts/vendor/font-awesome-5.1.0/css/all.css');
+    </style>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <style>
+        /* lato-100 - latin-ext_latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 100;
+            src: url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.eot');
+            /* IE9 Compat Modes */
+            src: local('Lato Hairline'), local('Lato-Hairline'), url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-100.svg#Lato') format('svg');
+            /* Legacy iOS */
+        }
+
+        /* lato-regular - latin-ext_latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            src: url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.eot');
+            /* IE9 Compat Modes */
+            src: local('Lato Regular'), local('Lato-Regular'), url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-regular.svg#Lato') format('svg');
+            /* Legacy iOS */
+        }
+
+        /* lato-700 - latin-ext_latin */
+        @font-face {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            src: url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.eot');
+            /* IE9 Compat Modes */
+            src: local('Lato Bold'), local('Lato-Bold'), url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://img.eselt.de/fonts/vendor/lato-v14/lato-v14-latin-ext_latin-700.svg#Lato') format('svg');
+            /* Legacy iOS */
+        }
+
+        /* playball-regular - latin-ext_latin */
+        @font-face {
+            font-family: 'Playball';
+            font-style: normal;
+            font-weight: 400;
+            src: url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.eot');
+            /* IE9 Compat Modes */
+            src: local('Playball'), local('Playball-Regular'), url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
+                /* IE6-IE8 */
+                url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.woff2') format('woff2'),
+                /* Super Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.woff') format('woff'),
+                /* Modern Browsers */
+                url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.ttf') format('truetype'),
+                /* Safari, Android, iOS */
+                url('https://img.eselt.de/fonts/vendor/playball-v7/playball-v7-latin-ext_latin-regular.svg#Playball') format('svg');
+            /* Legacy iOS */
+        }
+    </style>
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <style id="template__version">
+        .gallery__wrapper {
+            display: flex;
+            height: 600px
+        }
+
+        @media (max-width:992px) {
+            .gallery__wrapper {
+                display: block;
+                height: auto
+            }
+        }
+
+        .gallery__wrapper .gallery__bg {
+            height: 100%;
+            overflow-y: auto
+        }
+
+        @media (max-width:992px) {
+            .gallery__wrapper .gallery__bg {
+                height: auto
+            }
+        }
+
+        .images .image-wrapper {
+            margin: 24px auto;
+            text-align: center;
+            max-width: 100%;
+            height: auto
+        }
+
+        .images .image-wrapper img {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .content__gallery {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            background: hsla(0, 0%, 100%, .6);
+            text-align: center
+        }
+
+        .content__gallery .slider__wrapper {
+            overflow: hidden;
+            margin: 12px;
+            background: hsla(0, 0%, 100%, .3);
+            width: 100%;
+            height: 600px
+        }
+
+        @media (max-width:768px) {
+            .content__gallery .slider__wrapper {
+                height: 450px
+            }
+        }
+
+        @media (max-width:480px) {
+            .content__gallery .slider__wrapper {
+                height: 300px
+            }
+        }
+
+        .content__gallery .slider__wrapper .slider {
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            white-space: nowrap;
+            font-size: 0;
+            transition: all 0s 9999999s
+        }
+
+        .content__gallery .slider__wrapper .slider>* {
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%
+        }
+
+        .content__gallery .thumb__float {
+            display: inline-block;
+            margin: 12px;
+            border: 1px solid #feb032
+        }
+
+        .content__gallery .thumb__float .thumb__wrapper {
+            width: 80px;
+            height: 80px;
+            padding: 3px;
+            background: #fff
+        }
+
+        .content__gallery .thumb__float .thumb__wrapper img {
+            cursor: pointer
+        }
+
+        @media (max-width:1152px) {
+            .content__gallery .thumb__float .thumb__wrapper {
+                width: 60px;
+                height: 60px;
+                padding: 5px
+            }
+        }
+
+        @media (max-width:480px) {
+            .content__gallery .thumb__float .thumb__wrapper {
+                width: 40px;
+                height: 40px;
+                padding: 3px
+            }
+        }
+
+        .content__gallery--flex-column {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            height: 600px;
+            overflow-x: auto
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--flex-column {
+                flex-direction: row;
+                overflow-x: hidden;
+                height: auto;
+                justify-content: center
+            }
+        }
+
+        .content__gallery--flex-column .slider__wrapper {
+            width: 100%;
+            height: 100%
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--flex-column .slider__wrapper {
+                height: 300px
+            }
+        }
+
+        .content__gallery--left .slider__wrapper {
+            order: 2;
+            width: 800px
+        }
+
+        @media (max-width:1100px) {
+            .content__gallery--left .slider__wrapper {
+                width: 700px
+            }
+        }
+
+        @media (max-width:1000px) {
+            .content__gallery--left .slider__wrapper {
+                width: 600px
+            }
+        }
+
+        @media (max-width:900px) {
+            .content__gallery--left .slider__wrapper {
+                width: 550px
+            }
+        }
+
+        @media (max-width:800px) {
+            .content__gallery--left .slider__wrapper {
+                width: 500px
+            }
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--left .slider__wrapper {
+                width: 100%;
+                order: 1
+            }
+        }
+
+        .content__gallery--left .thumb__float {
+            order: 1
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--left .thumb__float {
+                order: 2
+            }
+        }
+
+        .content__gallery--right .slider__wrapper {
+            order: 1;
+            width: 800px
+        }
+
+        @media (max-width:1100px) {
+            .content__gallery--right .slider__wrapper {
+                width: 700px
+            }
+        }
+
+        @media (max-width:1000px) {
+            .content__gallery--right .slider__wrapper {
+                width: 600px
+            }
+        }
+
+        @media (max-width:900px) {
+            .content__gallery--right .slider__wrapper {
+                width: 550px
+            }
+        }
+
+        @media (max-width:800px) {
+            .content__gallery--right .slider__wrapper {
+                width: 500px
+            }
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--right .slider__wrapper {
+                width: 100%
+            }
+        }
+
+        .content__gallery--right .thumb__float {
+            order: 2
+        }
+
+        .content__gallery--bottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center
+        }
+
+        .content__gallery--bottom .slider__wrapper {
+            order: 1
+        }
+
+        .content__gallery--bottom .thumb__float {
+            order: 2
+        }
+
+        .content__gallery--higher {
+            height: 750px
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--higher {
+                height: auto
+            }
+        }
+
+        .content__gallery--highest {
+            height: 900px
+        }
+
+        @media (max-width:768px) {
+            .content__gallery--highest {
+                height: auto
+            }
+        }
+
+        .image-cover__wrapper {
+            text-align: center
+        }
+
+        .image-cover__img {
+            max-width: 100%;
+            margin: 0 auto
+        }
+
+        .slideshow {
+            height: 600px;
+            width: 100%
+        }
+
+        .slideshow>* {
+            height: 100%;
+            width: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 50%;
+            margin-bottom: 10%
+        }
+
+        #layout__layout-3 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-3 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-3 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-3 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-4 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-4 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-4 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-4 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-5 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-5 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-5 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-5 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-6 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-6 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-6 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-6 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-7 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-7 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-7 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-7 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-8 .content__gallery--flex-column {
+            flex-direction: row;
+            overflow-x: hidden;
+            height: auto;
+            justify-content: center
+        }
+
+        #layout__layout-8 .content__gallery--left .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        #layout__layout-8 .content__gallery--left .thumb__float {
+            order: 2
+        }
+
+        #layout__layout-8 .content__gallery--right .slider__wrapper {
+            width: 100%;
+            height: 480px;
+            order: 1
+        }
+
+        .content_tabs {
+            margin: 0;
+            padding: 0;
+            overflow: hidden
+        }
+
+        .tabs__label {
+            flex: 1;
+            color: #feb032;
+            border-right: 2px solid #feb032;
+            padding: 16px 0;
+            background: #37467f;
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+            z-index: 999
+        }
+
+        .tabs__label:hover {
+            background: #feb032;
+            color: #37467f
+        }
+
+        .tabs__label:last-of-type a {
+            border: none
+        }
+
+        .tabs__wrapper {
+            position: relative;
+            overflow: hidden
+        }
+
+        .tabs__slider {
+            height: 600px;
+            width: 100%;
+            transition: all 0s 9999999s
+        }
+
+        .tabs__slider>* {
+            height: 100%;
+            width: 100%;
+            overflow-y: auto;
+            overflow-x: hidden
+        }
+
+        .tabs__tab {
+            background: #fff;
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap
+        }
+
+        @media (max-width:768px) {
+            .tabs__tab {
+                flex-direction: column
+            }
+        }
+
+        .tabs__box {
+            border: 2px solid #feb032;
+            width: 100%
+        }
+
+        .tabs__box--content {
+            background: #fff;
+            padding: 12px
+        }
+
+        .tabs__box--aside .aside {
+            margin: 0 !important;
+            min-height: 100%
+        }
+
+        .tabs__box--aside .aside-block {
+            margin: 0 !important
+        }
+
+        .fa,
+        .far,
+        .fas {
+            font-family: Font Awesome\ 5 Free !important
+        }
+
+        .word-break {
+            word-break: break-all !important
+        }
+
+        .footer .footer-block__wrapper {
+            padding: 0 16px
+        }
+
+        @media (max-width:360px) {
+            .footer .footer-block .footer-block__body {
+                font-size: 15px !important
+            }
+        }
+
+        .footer .footer-block .footer-block__body .fa {
+            margin-right: 5px
+        }
+
+        .aside-block .aside-block__icons img {
+            border-radius: 6px
+        }
+
+        .container {
+            max-width: 100%
+        }
+
+        #layout__gallery {
+            margin: 24px 0
+        }
+
+        .order-1 {
+            order: 1
+        }
+
+        .order-2 {
+            order: 2
+        }
+
+        .flex {
+            display: flex
+        }
+
+        .flex-1 {
+            flex: 1
+        }
+
+        .flex-2 {
+            flex: 2
+        }
+
+        .direction-column {
+            flex-direction: column
+        }
+
+        .mt0 {
+            margin-top: 0 !important
+        }
+
+        .mb0 {
+            margin-bottom: 0 !important
+        }
+
+        .col-md-3 .aside-block .aside-block__icons {
+            text-align: center
+        }
+
+        .col-md-3 .aside-block .aside-block__icons img {
+            width: 75px
+        }
+
+        @media (max-width:992px) {
+            .menu {
+                font-size: 16px !important
+            }
+        }
+
+        .disabled-link,
+        .disabled-links a {
+            pointer-events: none;
+            cursor: default
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        .yt {
+            width: 100%;
+            text-align: center;
+            position: relative;
+            overflow: hidden
+        }
+
+        .yt img {
+            display: block;
+            max-width: 100%;
+            border: 0;
+            margin: 1em auto
+        }
+
+        .yt a:after {
+            content: "\A0\25BA";
+            position: absolute;
+            width: 60px;
+            height: 50px;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            border: 0;
+            border-radius: 10px;
+            color: #fff;
+            background: rgba(0, 0, 0, .6);
+            font-size: 24px;
+            line-height: 50px;
+            cursor: pointer
+        }
+
+        .yt a:hover:after {
+            background: #cc181e
+        }
+
+        .yt__img {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            display: block
+        }
+
+        #template-christmas header {
+            margin: 0;
+            padding: 0;
+            background: none;
+            box-shadow: none;
+            text-shadow: none;
+            position: relative;
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            z-index: auto
+        }
+
+        #template-christmas .template__wrapper {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: top
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .container {
+                padding: 0
+            }
+        }
+
+        #template-christmas .template__wrapper .header .container {
+            display: flex
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .header .container {
+                display: block
+            }
+        }
+
+        #template-christmas .template__wrapper .header .header__brand {
+            margin: 0;
+            flex: 1
+        }
+
+        #template-christmas .template__wrapper .header .header__brand .header__logo {
+            margin: 12px 0;
+            font-family: Playball, cursive;
+            font-size: 68px;
+            font-weight: 700;
+            color: #feb032
+        }
+
+        #template-christmas .template__wrapper .header .header__brand .header__logo img {
+            max-width: 80%
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .header .header__brand .header__logo {
+                text-align: center
+            }
+        }
+
+        @media (max-width:480px) {
+            #template-christmas .template__wrapper .header .header__brand .header__logo {
+                font-size: 51px
+            }
+        }
+
+        #template-christmas .template__wrapper .header .header__brand .header__slogan {
+            font-family: Playball, cursive;
+            font-size: 34px;
+            font-weight: 700;
+            color: #feb032
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .header .header__brand .header__slogan {
+                text-align: center
+            }
+        }
+
+        @media (max-width:480px) {
+            #template-christmas .template__wrapper .header .header__brand .header__slogan {
+                font-size: 26px
+            }
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .header {
+                display: block;
+                text-align: center
+            }
+        }
+
+        #template-christmas .template__wrapper .header .header__contact {
+            margin: 12px auto;
+            font-family: Lato, sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            text-align: right;
+            color: #feb032;
+            flex: 1
+        }
+
+        #template-christmas .template__wrapper .header .header__contact a {
+            color: #feb032
+        }
+
+        #template-christmas .template__wrapper .header .header__contact .fa {
+            margin-right: 6px;
+            margin-left: 12px
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .header .header__contact {
+                text-align: center
+            }
+        }
+
+        @media (max-width:480px) {
+            #template-christmas .template__wrapper .header .header__contact {
+                font-size: 21px
+            }
+        }
+
+        #template-christmas .template__wrapper .menu {
+            font-family: Lato, sans-serif;
+            font-size: 21px;
+            font-weight: 700;
+            margin: 24px 0;
+            padding: 12px;
+            background: hsla(0, 0%, 100%, .6);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .4)
+        }
+
+        #template-christmas .template__wrapper .menu .menu__list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .menu .menu__list {
+                display: block
+            }
+        }
+
+        #template-christmas .template__wrapper .menu .menu__item {
+            flex: 1;
+            text-align: center
+        }
+
+        #template-christmas .template__wrapper .menu .menu__item a {
+            display: block;
+            color: #37467f;
+            border-right: 1px solid #feb032;
+            padding: 18px 0
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .menu .menu__item a {
+                border-right: 0
+            }
+        }
+
+        #template-christmas .template__wrapper .menu .menu__item:last-child a {
+            border-right: 0
+        }
+
+        #template-christmas .template__wrapper .footer {
+            background: #feb032;
+            padding: 12px 0
+        }
+
+        #template-christmas .template__wrapper .footer>.container {
+            display: flex
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .footer>.container {
+                flex-direction: column
+            }
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block {
+            text-align: center
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__title {
+            font-family: Lato, sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: #37467f;
+            margin-top: 0;
+            margin-bottom: 9.6px
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .footer .footer-block .footer-block__title {
+                margin-top: 19.2px
+            }
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body {
+            font-family: Lato, sans-serif;
+            font-size: 19px;
+            font-weight: 400;
+            color: #37467f
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body a {
+            color: #37467f
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .btn {
+            background-color: #37467f;
+            border: none;
+            color: #feb032;
+            padding: 6px 18px;
+            margin-top: 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .btn:hover {
+            background-color: #feb032;
+            color: #37467f
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu {
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            margin: 0;
+            padding: 0;
+            background: none;
+            box-shadow: none
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu .container {
+            width: 100% !important;
+            padding: 0 !important
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu .menu__list {
+            margin: 0;
+            padding: 0;
+            display: block;
+            list-style: none
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu .menu__item {
+            text-align: center
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu .menu__item a {
+            display: block;
+            color: inherit;
+            border: 0;
+            padding: 0
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .menu .menu__item a:hover {
+            background: none;
+            color: inherit
+        }
+
+        #template-christmas .template__wrapper .content {
+            margin: 0;
+            padding: 0;
+            font-family: Lato, sans-serif;
+            color: #222;
+            font-size: 17px;
+            line-height: 1.5
+        }
+
+        #template-christmas .template__wrapper .content .content__header {
+            margin: 24px 0
+        }
+
+        #template-christmas .template__wrapper .content .content__header .content__title {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 34px;
+            color: #feb032
+        }
+
+        @media (max-width:480px) {
+            #template-christmas .template__wrapper .content .content__header .content__title {
+                font-size: 26px
+            }
+        }
+
+        #template-christmas .template__wrapper .content .content__description {
+            margin: 24px 0;
+            padding: 12px;
+            color: #222;
+            background: hsla(0, 0%, 100%, .6);
+            text-align: left
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .content .content__description {
+                margin: 12px 0
+            }
+        }
+
+        #template-christmas .template__wrapper .content .content__description p {
+            margin-top: 0;
+            margin-bottom: 6px
+        }
+
+        #template-christmas .template__wrapper .content .content__description p:last-of-type {
+            margin-bottom: 0
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints {
+            margin: 24px 0;
+            padding: 12px;
+            color: #222;
+            background: hsla(0, 0%, 100%, .6);
+            text-align: left
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .template__wrapper .content .content__bulletpoints {
+                margin: 12px 0
+            }
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints .bulletpoints__list {
+            margin: 0;
+            padding: 0;
+            list-style: none
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints .bulletpoints__item {
+            margin-bottom: 6px
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints .bulletpoints__item .fa {
+            color: #37467f
+        }
+
+        @media (max-width:480px) {
+            #template-christmas .template__wrapper .content .content__bulletpoints {
+                margin: 12px 0
+            }
+        }
+
+        #template-christmas .vertical-align-middle {
+            white-space: nowrap;
+            text-align: center
+        }
+
+        #template-christmas .vertical-align-middle .vertical-align-helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle
+        }
+
+        #template-christmas .vertical-align-middle img {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            max-height: 100%
+        }
+
+        #template-christmas .aside {
+            overflow: hidden
+        }
+
+        #template-christmas .aside-block {
+            text-align: left;
+            padding: 12px;
+            margin-bottom: 24px;
+            background: hsla(0, 0%, 100%, .6)
+        }
+
+        #template-christmas .aside-block .aside-block__title {
+            font-family: Lato, sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            color: #37467f;
+            margin-bottom: 12px;
+            text-align: left
+        }
+
+        #template-christmas .aside-block .aside-block__title .fa {
+            font-size: 34px
+        }
+
+        #template-christmas .aside-block .aside-block__body {
+            font-family: Lato, sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+            color: #222
+        }
+
+        #template-christmas .aside-block .aside-block__icons {
+            text-align: left;
+            margin-bottom: 12px
+        }
+
+        #template-christmas .aside-block .aside-block__icons img {
+            margin: 3px
+        }
+
+        @media (max-width:1200px) and (min-width:768px) {
+            #template-christmas .aside-block {
+                padding: 6px
+            }
+
+            #template-christmas .aside-block .aside-block__title,
+            #template-christmas .aside-block .aside-block__title .fa {
+                font-size: 28px
+            }
+
+            #template-christmas .aside-block .aside-block__body {
+                font-size: 16px
+            }
+        }
+
+        #template-christmas .footer__eselt {
+            margin: 12px auto;
+            font-family: Helvetica, sans-serif;
+            font-size: .8em;
+            font-weight: 400;
+            color: #888;
+            text-align: right;
+            width: 98%;
+            order: 99
+        }
+
+        #template-christmas .footer__eselt a {
+            color: #888
+        }
+
+        @media (max-width:768px) {
+            #template-christmas .footer__eselt {
+                text-align: center
+            }
+        }
+
+        #template-christmas .footer__logo {
+            font-family: Titillium Web, sans-serif
+        }
+
+        #template-christmas .footer__logo:before {
+            content: "&#x45;&#x72;&#x73;&#x74;&#x65;&#x6C;&#x6C;&#x74;&#x20;&#x6D;&#x69;&#x74; "
+        }
+
+        #template-christmas .footer__logo .text:before {
+            content: "&#x45;&#x73;&#x65;&#x6C;&#x74;"
+        }
+
+        #template-christmas .no-margin {
+            margin: 0 !important
+        }
+
+        #template-christmas .no-margin-top {
+            margin-top: 0 !important
+        }
+
+        #template-christmas .no-margin-right {
+            margin-right: 0 !important
+        }
+
+        #template-christmas .no-margin-bottom {
+            margin-bottom: 0 !important
+        }
+
+        #template-christmas .no-margin-left {
+            margin-left: 0 !important
+        }
+
+        #template-christmas .template__wrapper {
+            background-image: url('https://img.eselt.de/assets/templates/template-christmas/gifts.jpg');
+            background-color: #ebeae6;
+        }
+
+        #template-christmas .template__wrapper .template__background {
+            background-color: transparent;
+            overflow: hidden;
+        }
+
+        #template-christmas .template__wrapper .header .header__brand .header__logo {
+            font-family: "Playball";
+            color: #212025;
+            text-shadow: 2px 2px 6px rgba(150, 150, 150, 0.5);
+        }
+
+        #template-christmas .template__wrapper .header .header__brand .header__slogan {
+            font-family: "Playball";
+            color: #212025;
+            text-shadow: 2px 2px 6px rgba(150, 150, 150, 0.5);
+        }
+
+        #template-christmas .template__wrapper .header .header__contact {
+            color: #212025;
+            text-shadow: 2px 2px 6px rgba(150, 150, 150, 0.5);
+        }
+
+        #template-christmas .template__wrapper .header .header__contact a {
+            color: #212025;
+            text-shadow: 2px 2px 6px rgba(150, 150, 150, 0.5);
+        }
+
+        #template-christmas .template__wrapper .menu {
+            font-family: "Lato";
+        }
+
+        #template-christmas .template__wrapper .menu .menu__item a {
+            color: #e13184;
+            border-color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .content .content__header .content__title {
+            font-family: "Lato";
+            color: #212025;
+        }
+
+        #template-christmas .template__wrapper .content .content__description {
+            font-family: "Lato";
+            background-color: rgba(255, 255, 255, 0.6);
+            color: #222222;
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints {
+            background-color: rgba(255, 255, 255, 0.6);
+            color: #222222;
+        }
+
+        #template-christmas .template__wrapper .content .content__bulletpoints .bulletpoints__item .fa {
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .aside-block {
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+        #template-christmas .template__wrapper .aside-block .aside-block__body {
+            font-family: "Lato";
+            color: #222222;
+        }
+
+        #template-christmas .template__wrapper .aside .aside-block .aside-block__title {
+            font-family: "Lato";
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .content__gallery .thumb__float {
+            border-color: #212025;
+        }
+
+        #template-christmas .template__wrapper .footer {
+            background-color: #212025;
+        }
+
+        #template-christmas .template__wrapper .footer .footer__contact {
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body a {
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .footer-block .footer-block__body .menu .menu__item a {
+            color: #e13184;
+            background: none;
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .btn {
+            background-color: #e13184;
+            color: #212025;
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body .btn:hover {
+            background-color: #212025;
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__title {
+            font-family: "Lato";
+            color: #e13184;
+        }
+
+        #template-christmas .template__wrapper .footer .footer-block .footer-block__body {
+            font-family: "Lato";
+            color: #e13184;
+        }
+
+        #template-christmas .images .image-wrapper img {
+            border-color: #212025;
+            background-color: #e13184;
+        }
+
+        #template-christmas .content__gallery .gallery__prev-next a {
+            color: #212025;
+        }
+
+        #template-christmas .content__gallery {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        #template-christmas .tabs__label {
+            background: #e13184;
+            color: #212025;
+            border-color: #212025;
+        }
+
+        #template-christmas .tabs__label:hover {
+            background: #212025;
+            color: #e13184;
+        }
+
+        #template-christmas .tabs__box {
+            border-color: #212025;
+        }
+
+        #template-christmas .tabs__box--content {
+            background: rgba(255, 255, 255, 0.6);
+        }
+
+        #template-christmas .template__wrapper .pWRzKpvrT199gWVe {
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+            font-size: 0.8em;
+            font-weight: normal;
+            color: #888;
+            text-align: right;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding: 10px;
+            background: #fff;
+        }
+
+        #template-christmas .template__wrapper .pWRzKpvrT199gWVe a {
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            #template-christmas .template__wrapper .pWRzKpvrT199gWVe {
+                text-align: center;
+            }
+        }
+
+        #template-christmas .template__wrapper .eUi61S3xDJESs {
+            font-family: 'Titillium Web', sans-serif;
+        }
+    </style>
+    <!---->
+    <!---->
+    <div>
+        <div>
+            <div class="template__wrapper">
+                <div class="template__background" style="position: relative; padding-bottom: 46px;">
+                    <div class="pWRzKpvrT199gWVe"><a
+                            href="https://stores.ebay.com/&#x45;&#x73;&#x65;&#x6C;&#x74;-Verkaufsvorlagen"
+                            target="_blank"><span> Created with <strong><span class="eUi61S3xDJESs">
+                                        &#x45;&#x73;&#x65;&#x6C;&#x74; </span></strong></span> -
+                            <span>&#x54;&#x65;&#x6D;&#x70;&#x6C;&#x61;&#x74;&#x65;&#x73;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x65;&#x42;&#x61;&#x79;&#x20;&#x53;&#x65;&#x6C;&#x6C;&#x65;&#x72;&#x73;</span></a>
+                    </div>
+                    <header class="header">
+                        <div class="container">
+                            <div class="header__brand">
+                                <div class="header__logo"><img
+                                        src="https://img.eselt.de/img/3353523_NCLuRBXTLDyEEP2w/logo.png" class=""></div>
+                                <!---->
+                            </div>
+                            <div class="header__contact word-break">
+                                <div><i aria-hidden="true" class="fa fa-phone-square"></i><span>Give us a call</span>
+                                </div>
+                                <div><i aria-hidden="true" class="fa fa-envelope"></i><span>Send us a message</span>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="pWRzKpvrT199gWVe"><a
+                            href="https://stores.ebay.com/&#x45;&#x73;&#x65;&#x6C;&#x74;-Verkaufsvorlagen"
+                            target="_blank"><span> Created with <strong><span class="eUi61S3xDJESs">
+                                        &#x45;&#x73;&#x65;&#x6C;&#x74; </span></strong></span> -
+                            <span>&#x54;&#x65;&#x6D;&#x70;&#x6C;&#x61;&#x74;&#x65;&#x73;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x65;&#x42;&#x61;&#x79;&#x20;&#x53;&#x65;&#x6C;&#x6C;&#x65;&#x72;&#x73;</span></a>
+                    </div>
+                    <nav class="menu">
+                        <div class="container">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="https://www.ebay.com/str/null" target="_blank"
+                                        class="disabled-link"> Our Store </a></li>
+                                <li class="menu__item"><a href="https://www.ebay.com/usr/null" target="_blank"
+                                        class="disabled-link"> Seller Profile </a></li>
+                                <li class="menu__item"><a
+                                        href="https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=null"
+                                        target="_blank" class="disabled-link"> Feedback </a></li>
+                                <li class="menu__item"><a
+                                        href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&amp;sellerid=null&amp;ssPageName=STRK:MEFS:ADDSTR&amp;rt=nc"
+                                        target="_blank" class="disabled-link"> Save this seller </a></li>
+                                <li class="menu__item"><a
+                                        href="https://www.ebay.com/contact/sendmsg?&amp;recipient=null" target="_blank"
+                                        class="disabled-link"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="pWRzKpvrT199gWVe"><a
+                            href="https://stores.ebay.com/&#x45;&#x73;&#x65;&#x6C;&#x74;-Verkaufsvorlagen"
+                            target="_blank"><span> Created with <strong><span class="eUi61S3xDJESs">
+                                        &#x45;&#x73;&#x65;&#x6C;&#x74; </span></strong></span> -
+                            <span>&#x54;&#x65;&#x6D;&#x70;&#x6C;&#x61;&#x74;&#x65;&#x73;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x65;&#x42;&#x61;&#x79;&#x20;&#x53;&#x65;&#x6C;&#x6C;&#x65;&#x72;&#x73;</span></a>
+                    </div>
+                    <main class="content">
+                        <div class="container">
+                            <div class="content__header">
+                                <h1 class="content__title"> - Stylish High Heels - </h1>
+                            </div>
+                            <div>
+                                <div class="product-1213208"></div>
+                                <!---->
+                                <div id="layout__layout-2">
+                                    <div class="" id="layout__gallery" style="margin-bottom: 0px;">
+                                        <div>
+                                            <!---->
+                                            <!---->
+                                            <!---->
+                                            <div>
+                                                <style>
+                                                    .thumb1:active~.slider__wrapper>.slider {
+                                                        -webkit-transition: all 0s;
+                                                        -ms-transition: all 0s;
+                                                        transition: all 0s;
+                                                        transform: translateX(-0%);
+                                                        -webkit-transform: translateX(-0%);
+                                                        -ms-transform: translateX(-0%);
+                                                    }
+                                                </style>
+                                                <style>
+                                                    .thumb2:active~.slider__wrapper>.slider {
+                                                        -webkit-transition: all 0s;
+                                                        -ms-transition: all 0s;
+                                                        transition: all 0s;
+                                                        transform: translateX(-100%);
+                                                        -webkit-transform: translateX(-100%);
+                                                        -ms-transform: translateX(-100%);
+                                                    }
+                                                </style>
+                                                <style>
+                                                    .thumb3:active~.slider__wrapper>.slider {
+                                                        -webkit-transition: all 0s;
+                                                        -ms-transition: all 0s;
+                                                        transition: all 0s;
+                                                        transform: translateX(-200%);
+                                                        -webkit-transform: translateX(-200%);
+                                                        -ms-transform: translateX(-200%);
+                                                    }
+                                                </style>
+                                                <div class="content__gallery content__gallery--bottom ">
+                                                    <div class="thumb__float thumb1">
+                                                        <div class="thumb__wrapper vertical-align-middle"><span
+                                                                class="vertical-align-helper"></span><img
+                                                                src="https://app.eselt.de/assets/images/examples/bw_1.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb__float thumb2">
+                                                        <div class="thumb__wrapper vertical-align-middle"><span
+                                                                class="vertical-align-helper"></span><img
+                                                                src="https://app.eselt.de/assets/images/examples/bw_2.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb__float thumb3">
+                                                        <div class="thumb__wrapper vertical-align-middle"><span
+                                                                class="vertical-align-helper"></span><img
+                                                                src="https://app.eselt.de/assets/images/examples/bw_3.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <div class="slider__wrapper">
+                                                        <div class="slider">
+                                                            <div
+                                                                style="background-image: url(&quot;https://app.eselt.de/assets/images/examples/bw_1.jpg&quot;);">
+                                                            </div>
+                                                            <div
+                                                                style="background-image: url(&quot;https://app.eselt.de/assets/images/examples/bw_2.jpg&quot;);">
+                                                            </div>
+                                                            <div
+                                                                style="background-image: url(&quot;https://app.eselt.de/assets/images/examples/bw_3.jpg&quot;);">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="layout__content" style="margin-top: 0px;">
+                                        <div class="row flex direction-column">
+                                            <div class="col col-md-12 order-1">
+                                                <div class="content__description mb0">
+                                                    <h2><span style="color:rgb(192,145,0);">High Heel Shoes</span></h2>
+                                                    <hr>
+                                                    <p>Comfortable high heels in a classic shape that never goes out of
+                                                        fashion. They match different styles and give every outfit a
+                                                        touch of refined elegance. Perfect with a skirt or fabric pants,
+                                                        as well as with stylish slim f<span>it jeans<br></span></p>
+                                                </div>
+                                            </div>
+                                            <div class="col col-md-12 order-2">
+                                                <div class="content__bulletpoints">
+                                                    <ul class="bulletpoints__list">
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> High Heel Pumps made of leather
+                                                            in classic form </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Perfect addition to every
+                                                            outfit </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> They go well with jeans and a
+                                                            skirt </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Toe cap: Pointed </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Heel: 10cm </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Sole colour: black </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Shoe sole: leather </li>
+                                                        <li class="bulletpoints__item"><i aria-hidden="true"
+                                                                class="fa fa-check"></i> Made in italy </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                    </main>
+                    <div class="pWRzKpvrT199gWVe"><a
+                            href="https://stores.ebay.com/&#x45;&#x73;&#x65;&#x6C;&#x74;-Verkaufsvorlagen"
+                            target="_blank"><span> Created with <strong><span class="eUi61S3xDJESs">
+                                        &#x45;&#x73;&#x65;&#x6C;&#x74; </span></strong></span> -
+                            <span>&#x54;&#x65;&#x6D;&#x70;&#x6C;&#x61;&#x74;&#x65;&#x73;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x65;&#x42;&#x61;&#x79;&#x20;&#x53;&#x65;&#x6C;&#x6C;&#x65;&#x72;&#x73;</span></a>
+                    </div>
+                    <!---->
+                    <div class="pWRzKpvrT199gWVe"><a
+                            href="https://stores.ebay.com/&#x45;&#x73;&#x65;&#x6C;&#x74;-Verkaufsvorlagen"
+                            target="_blank"><span> Created with <strong><span class="eUi61S3xDJESs">
+                                        &#x45;&#x73;&#x65;&#x6C;&#x74; </span></strong></span> -
+                            <span>&#x54;&#x65;&#x6D;&#x70;&#x6C;&#x61;&#x74;&#x65;&#x73;&#x20;&#x66;&#x6F;&#x72;&#x20;&#x65;&#x42;&#x61;&#x79;&#x20;&#x53;&#x65;&#x6C;&#x6C;&#x65;&#x72;&#x73;</span></a>
+                    </div>
+                    <div>
+                        <footer class="footer">
+                            <div class="container">
+                                <div class="footer-block__wrapper flex-1">
+                                    <div class="footer-block">
+                                        <div class="footer-block__title no-margin-top"> Links </div>
+                                        <div class="footer-block__body">
+                                            <nav class="menu">
+                                                <div class="container">
+                                                    <ul class="menu__list">
+                                                        <li class="menu__item"><a href="https://www.ebay.com/str/null"
+                                                                target="_blank" class="disabled-link"> Our Store </a>
+                                                        </li>
+                                                        <li class="menu__item"><a href="https://www.ebay.com/usr/null"
+                                                                target="_blank" class="disabled-link"> Seller Profile
+                                                            </a></li>
+                                                        <li class="menu__item"><a
+                                                                href="https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=null"
+                                                                target="_blank" class="disabled-link"> Feedback </a>
+                                                        </li>
+                                                        <li class="menu__item"><a
+                                                                href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&amp;sellerid=null&amp;ssPageName=STRK:MEFS:ADDSTR&amp;rt=nc"
+                                                                target="_blank" class="disabled-link"> Save this seller
+                                                            </a></li>
+                                                        <li class="menu__item"><a
+                                                                href="https://www.ebay.com/contact/sendmsg?&amp;recipient=null"
+                                                                target="_blank" class="disabled-link"> Contact </a></li>
+                                                    </ul>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-block__wrapper flex-1">
+                                    <div class="footer-block">
+                                        <div class="footer-block__title"> Newsletter </div>
+                                        <div class="footer-block__body"> Don't miss any offers! We will inform you about
+                                            our offers and promotions by email.<br><a
+                                                href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&amp;sellerid=null&amp;ssPageName=STRK:MEFS:ADDSTR&amp;rt=nc"
+                                                target="_blank" class="btn"><i class="fa fa-envelope"></i> Subscribe to
+                                                newsletter </a></div>
+                                    </div>
+                                </div>
+                                <div class="footer-block__wrapper flex-1">
+                                    <div class="footer-block">
+                                        <div class="footer-block__title"> Contact </div>
+                                        <div class="footer-block__body footer__contact"><i aria-hidden="true"
+                                                class="fa fa-phone-square"></i><span>Give us a call</span><br><i
+                                                aria-hidden="true" class="fa fa-envelope"></i><span>Send us a
+                                                message</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                        <!---->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
